@@ -10,10 +10,10 @@ jobs:
 
       steps: 
         - name: Buoc 1  - Xin chao        #Lenh in ra man hinh
-          run!: echo "Hello HUTECH"
+          run: echo "Hello HUTECH"
 
         - name:  Buoc 2 - Tai code         #Robot tu dong copy code vao may ao
           uses: actions/chechout@v6.0.2
 
         - name:  Buoc 3 - Doc file         #Mo noi dung file README.md de xem
-          run!: cat README.md
+          run: cat README.md
