@@ -2,7 +2,7 @@ name: test doc readme  #ten quy trinh
 
 on:          #Chay khi nao
   push:
-      branches: {"main"}    #khi push len nhanh main
+      branches: ["main"]    #khi push len nhanh main
 
 jobs:
   Thuc_hanh_doc_file:
